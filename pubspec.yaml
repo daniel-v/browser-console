@@ -1,0 +1,15 @@
+name: browser_console
+description: >
+  Browser console interop library for Dart
+dependencies:
+  js: '^0.6.0'
+  reflectable: any
+  browser: any
+  webdriver: any
+dev_dependencies:
+  test: any
+  mockito: any
+transformers:
+- reflectable:
+    entry_points: ["test/*_test.dart"]
+    formatted: true
