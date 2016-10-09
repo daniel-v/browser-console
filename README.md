@@ -11,7 +11,7 @@ What exactly is going to be included can be read here:
 
 ## Use
 
-This package uses `reflectable` and this it is necessary to modify `pubspec.yaml` to include
+This package uses `reflectable` and thus it is necessary to modify `pubspec.yaml` to include
 
 ```
 dependencies:
